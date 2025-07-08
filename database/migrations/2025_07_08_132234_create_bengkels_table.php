@@ -11,14 +11,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('teknisi', function (Blueprint $table) {
-            $table->string('id')->primary();
+        Schema::create('bengkels', function (Blueprint $table) {
+            $table->id();
             $table->string('nama');
-            $table->string('spesialisasi')->nullable();
-            $table->string('no_telepon')->nullable();
+            $table->text('alamat');
             $table->string('telepon')->nullable();
-            $table->text('alamat')->nullable();
-            $table->enum('status_aktif', ['aktif', 'nonaktif'])->default('aktif');
+            $table->string('profil')->nullable();
+            $table->string('ig')->nullable();
+            $table->string('wa')->nullable();
+            $table->string('email')->nullable();
+            $table->string('facebook')->nullable();
         });
     }
 
@@ -27,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('teknisi');
+        Schema::dropIfExists('bengkels');
     }
 };
