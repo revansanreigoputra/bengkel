@@ -4,7 +4,7 @@
             <ol class="breadcrumb bg-transparent mb-1 pb-0 pt-1 px-0 me-sm-6 me-5">
                 <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Di Halaman Admin</a></li>
             </ol>
-            <h6 class="font-weight-bold mb-0">Selamt Datang!!!</h6>
+            <h6 class="font-weight-bold mb-0">Selamat Datang!!!</h6>
         </nav>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
             <div class="ms-md-auto pe-md-3 d-flex align-items-center">

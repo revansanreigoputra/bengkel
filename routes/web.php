@@ -35,6 +35,14 @@ Route::get('/manajemen-sparepart', function () {
     return view('manajemen-sparepart');
 })->name('manajemen-sparepart')->middleware('auth');
 
+Route::get('/manajemen-service', function () {
+    return view('manajemen-service');
+})->name('manajemen-service')->middleware('auth');
+
+Route::get('/manajemen-teknisi', function () {
+    return view('manajemen-teknisi');
+})->name('manajemen-teknisi')->middleware('auth');
+
 Route::get('/wallet', function () {
     return view('wallet');
 })->name('wallet')->middleware('auth');

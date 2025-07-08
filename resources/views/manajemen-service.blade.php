@@ -8,8 +8,8 @@
                         <div class="card-header border-bottom pb-0">
                             <div class="d-sm-flex align-items-center mb-3">
                                 <div>
-                                    <h6 class="font-weight-semibold text-lg mb-0">Kelola Sparepart</h6>
-                                    <p class="text-sm mb-sm-0">Daftar lengkap sparepart yang tersedia</p>
+                                    <h6 class="font-weight-semibold text-lg mb-0">Kelola Layanan Service</h6>
+                                    <p class="text-sm mb-sm-0">Daftar lengkap layanan service yang tersedia</p>
                                 </div>
                                 <div class="ms-auto d-flex">
                                     <div class="input-group input-group-sm ms-auto me-2">
@@ -43,7 +43,7 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
                                             </svg>
                                         </span>
-                                        <span class="btn-inner--text">Tambah Sparepart</span>
+                                        <span class="btn-inner--text">Tambah Layanan</span>
                                     </button>
                                 </div>
                             </div>
@@ -53,48 +53,47 @@
                                 <table class="table align-items-center justify-content-center mb-0">
                                     <thead class="bg-gray-100">
                                         <tr>
-                                            <th class="text-secondary text-xs font-weight-semibold opacity-7">Gambar</th>
-                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Kode</th>
+                                            <th class="text-secondary text-xs font-weight-semibold opacity-7">Kode</th>
                                             <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Nama</th>
-                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Satuan</th>
-                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Stok</th>
-                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Jumlah</th>
-                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Harga Beli</th>
-                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Tanggal Masuk</th>
+                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Kategori</th>
+                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Durasi Estimasi</th>
                                             <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Deskripsi</th>
+                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Harga Standar</th>
+                                            <th class="text-secondary text-xs font-weight-semibold opacity-7">Gambar</th>
+                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Status Service</th>
                                             <th class="text-center text-secondary text-xs font-weight-semibold opacity-7">Aksi</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>
+                                                <p class="text-sm font-weight-normal mb-0">SV-001</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-sm font-weight-normal mb-0">Ganti Oli Mesin</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-sm font-weight-normal mb-0">Perawatan</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-sm font-weight-normal mb-0">30 menit</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-sm font-weight-normal mb-0 text-truncate" style="max-width: 150px;">Layanan ganti oli mesin termasuk pemeriksaan dasar</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-sm font-weight-normal mb-0">Rp 150.000</p>
+                                            </td>
+                                            <td>
                                                 <div class="avatar avatar-sm rounded-circle bg-gray-100 me-2 my-2">
-                                                    <img src="../assets/img/products/sparepart1.jpg" class="w-80" alt="sparepart">
+                                                    <img src="../assets/img/services/service1.jpg" class="w-80" alt="service">
                                                 </div>
                                             </td>
                                             <td>
-                                                <p class="text-sm font-weight-normal mb-0">SP-001</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">Kampas Rem</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">Set</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">25</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">30</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">Rp 120.000</p>
-                                            </td>
-                                            <td>
-                                                <span class="text-sm font-weight-normal">12 Jan 2023</span>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0 text-truncate" style="max-width: 150px;">Kampas rem depan untuk motor matic</p>
+                                                <select class="form-select form-select-sm" aria-label="Status Service">
+                                                    <option value="aktif" selected>Aktif</option>
+                                                    <option value="tidak">Tidak Aktif</option>
+                                                </select>
                                             </td>
                                             <td>
                                                 <div class="d-flex">
@@ -105,33 +104,33 @@
                                         </tr>
                                         <tr>
                                             <td>
+                                                <p class="text-sm font-weight-normal mb-0">SV-002</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-sm font-weight-normal mb-0">Service Rem</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-sm font-weight-normal mb-0">Ringan</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-sm font-weight-normal mb-0">1 jam</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-sm font-weight-normal mb-0 text-truncate" style="max-width: 150px;">Pemeriksaan dan perbaikan sistem rem termasuk ganti kampas rem</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-sm font-weight-normal mb-0">Rp 250.000</p>
+                                            </td>
+                                            <td>
                                                 <div class="avatar avatar-sm rounded-circle bg-gray-100 me-2 my-2">
-                                                    <img src="../assets/img/products/sparepart2.jpg" class="w-80" alt="sparepart">
+                                                    <img src="../assets/img/services/service2.jpg" class="w-80" alt="service">
                                                 </div>
                                             </td>
                                             <td>
-                                                <p class="text-sm font-weight-normal mb-0">SP-002</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">Oli Mesin</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">Botol</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">48</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">50</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">Rp 85.000</p>
-                                            </td>
-                                            <td>
-                                                <span class="text-sm font-weight-normal">5 Feb 2023</span>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0 text-truncate" style="max-width: 150px;">Oli mesin sintetik 10W-40 1L</p>
+                                                <select class="form-select form-select-sm" aria-label="Status Service">
+                                                    <option value="aktif" selected>Aktif</option>
+                                                    <option value="tidak">Tidak Aktif</option>
+                                                </select>
                                             </td>
                                             <td>
                                                 <div class="d-flex">
@@ -142,33 +141,33 @@
                                         </tr>
                                         <tr>
                                             <td>
+                                                <p class="text-sm font-weight-normal mb-0">SV-003</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-sm font-weight-normal mb-0">Overhaul Mesin</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-sm font-weight-normal mb-0">Berat</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-sm font-weight-normal mb-0">3 hari</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-sm font-weight-normal mb-0 text-truncate" style="max-width: 150px;">Service berat termasuk pembongkaran dan perakitan mesin</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-sm font-weight-normal mb-0">Rp 1.500.000</p>
+                                            </td>
+                                            <td>
                                                 <div class="avatar avatar-sm rounded-circle bg-gray-100 me-2 my-2">
-                                                    <img src="../assets/img/products/sparepart3.jpg" class="w-80" alt="sparepart">
+                                                    <img src="../assets/img/services/service3.jpg" class="w-80" alt="service">
                                                 </div>
                                             </td>
                                             <td>
-                                                <p class="text-sm font-weight-normal mb-0">SP-003</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">Aki Kering</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">Unit</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">12</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">15</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">Rp 350.000</p>
-                                            </td>
-                                            <td>
-                                                <span class="text-sm font-weight-normal">20 Mar 2023</span>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0 text-truncate" style="max-width: 150px;">Aki kering MF 12V 5Ah untuk motor</p>
+                                                <select class="form-select form-select-sm" aria-label="Status Service">
+                                                    <option value="aktif">Aktif</option>
+                                                    <option value="tidak" selected>Tidak Aktif</option>
+                                                </select>
                                             </td>
                                             <td>
                                                 <div class="d-flex">

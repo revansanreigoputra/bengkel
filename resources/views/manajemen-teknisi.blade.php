@@ -8,8 +8,8 @@
                         <div class="card-header border-bottom pb-0">
                             <div class="d-sm-flex align-items-center mb-3">
                                 <div>
-                                    <h6 class="font-weight-semibold text-lg mb-0">Kelola Sparepart</h6>
-                                    <p class="text-sm mb-sm-0">Daftar lengkap sparepart yang tersedia</p>
+                                    <h6 class="font-weight-semibold text-lg mb-0">Kelola Data Teknisi</h6>
+                                    <p class="text-sm mb-sm-0">Daftar lengkap teknisi yang tersedia</p>
                                 </div>
                                 <div class="ms-auto d-flex">
                                     <div class="input-group input-group-sm ms-auto me-2">
@@ -43,7 +43,7 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
                                             </svg>
                                         </span>
-                                        <span class="btn-inner--text">Tambah Sparepart</span>
+                                        <span class="btn-inner--text">Tambah Teknisi</span>
                                     </button>
                                 </div>
                             </div>
@@ -53,48 +53,43 @@
                                 <table class="table align-items-center justify-content-center mb-0">
                                     <thead class="bg-gray-100">
                                         <tr>
-                                            <th class="text-secondary text-xs font-weight-semibold opacity-7">Gambar</th>
-                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Kode</th>
-                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Nama</th>
-                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Satuan</th>
-                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Stok</th>
-                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Jumlah</th>
-                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Harga Beli</th>
-                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Tanggal Masuk</th>
-                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Deskripsi</th>
+                                            <th class="text-secondary text-xs font-weight-semibold opacity-7">Nama</th>
+                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Spesialisasi</th>
+                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Telepon</th>
+                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Alamat</th>
+                                            <th class="text-secondary text-xs font-weight-semibold opacity-7 ps-2">Status Aktif</th>
                                             <th class="text-center text-secondary text-xs font-weight-semibold opacity-7">Aksi</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <div class="avatar avatar-sm rounded-circle bg-gray-100 me-2 my-2">
-                                                    <img src="../assets/img/products/sparepart1.jpg" class="w-80" alt="sparepart">
+                                                <div class="d-flex px-2 py-1">
+                                                    <div>
+                                                        <div class="avatar avatar-sm rounded-circle bg-gray-100 me-2">
+                                                            <img src="../assets/img/team-1.jpg" class="w-80" alt="avatar">
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex flex-column justify-content-center">
+                                                        <h6 class="mb-0 text-sm">Budi Santoso</h6>
+                                                        <p class="text-xs text-secondary mb-0">TK-001</p>
+                                                    </div>
                                                 </div>
                                             </td>
                                             <td>
-                                                <p class="text-sm font-weight-normal mb-0">SP-001</p>
+                                                <p class="text-sm font-weight-normal mb-0">Mesin & Kelistrikan</p>
                                             </td>
                                             <td>
-                                                <p class="text-sm font-weight-normal mb-0">Kampas Rem</p>
+                                                <p class="text-sm font-weight-normal mb-0">081234567890</p>
                                             </td>
                                             <td>
-                                                <p class="text-sm font-weight-normal mb-0">Set</p>
+                                                <p class="text-sm font-weight-normal mb-0 text-truncate" style="max-width: 200px;">Jl. Merdeka No. 12, Jakarta Pusat</p>
                                             </td>
                                             <td>
-                                                <p class="text-sm font-weight-normal mb-0">25</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">30</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">Rp 120.000</p>
-                                            </td>
-                                            <td>
-                                                <span class="text-sm font-weight-normal">12 Jan 2023</span>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0 text-truncate" style="max-width: 150px;">Kampas rem depan untuk motor matic</p>
+                                                <select class="form-select form-select-sm" aria-label="Status Aktif">
+                                                    <option value="aktif" selected>Aktif</option>
+                                                    <option value="tidak">Tidak Aktif</option>
+                                                </select>
                                             </td>
                                             <td>
                                                 <div class="d-flex">
@@ -105,33 +100,32 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <div class="avatar avatar-sm rounded-circle bg-gray-100 me-2 my-2">
-                                                    <img src="../assets/img/products/sparepart2.jpg" class="w-80" alt="sparepart">
+                                                <div class="d-flex px-2 py-1">
+                                                    <div>
+                                                        <div class="avatar avatar-sm rounded-circle bg-gray-100 me-2">
+                                                            <img src="../assets/img/team-2.jpg" class="w-80" alt="avatar">
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex flex-column justify-content-center">
+                                                        <h6 class="mb-0 text-sm">Ani Wijaya</h6>
+                                                        <p class="text-xs text-secondary mb-0">TK-002</p>
+                                                    </div>
                                                 </div>
                                             </td>
                                             <td>
-                                                <p class="text-sm font-weight-normal mb-0">SP-002</p>
+                                                <p class="text-sm font-weight-normal mb-0">Sistem Rem & Suspensi</p>
                                             </td>
                                             <td>
-                                                <p class="text-sm font-weight-normal mb-0">Oli Mesin</p>
+                                                <p class="text-sm font-weight-normal mb-0">081298765432</p>
                                             </td>
                                             <td>
-                                                <p class="text-sm font-weight-normal mb-0">Botol</p>
+                                                <p class="text-sm font-weight-normal mb-0 text-truncate" style="max-width: 200px;">Jl. Sudirman Kav. 12, Jakarta Selatan</p>
                                             </td>
                                             <td>
-                                                <p class="text-sm font-weight-normal mb-0">48</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">50</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">Rp 85.000</p>
-                                            </td>
-                                            <td>
-                                                <span class="text-sm font-weight-normal">5 Feb 2023</span>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0 text-truncate" style="max-width: 150px;">Oli mesin sintetik 10W-40 1L</p>
+                                                <select class="form-select form-select-sm" aria-label="Status Aktif">
+                                                    <option value="aktif" selected>Aktif</option>
+                                                    <option value="tidak">Tidak Aktif</option>
+                                                </select>
                                             </td>
                                             <td>
                                                 <div class="d-flex">
@@ -142,33 +136,32 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <div class="avatar avatar-sm rounded-circle bg-gray-100 me-2 my-2">
-                                                    <img src="../assets/img/products/sparepart3.jpg" class="w-80" alt="sparepart">
+                                                <div class="d-flex px-2 py-1">
+                                                    <div>
+                                                        <div class="avatar avatar-sm rounded-circle bg-gray-100 me-2">
+                                                            <img src="../assets/img/team-3.jpg" class="w-80" alt="avatar">
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex flex-column justify-content-center">
+                                                        <h6 class="mb-0 text-sm">Joko Prasetyo</h6>
+                                                        <p class="text-xs text-secondary mb-0">TK-003</p>
+                                                    </div>
                                                 </div>
                                             </td>
                                             <td>
-                                                <p class="text-sm font-weight-normal mb-0">SP-003</p>
+                                                <p class="text-sm font-weight-normal mb-0">Transmisi & Kopling</p>
                                             </td>
                                             <td>
-                                                <p class="text-sm font-weight-normal mb-0">Aki Kering</p>
+                                                <p class="text-sm font-weight-normal mb-0">085678901234</p>
                                             </td>
                                             <td>
-                                                <p class="text-sm font-weight-normal mb-0">Unit</p>
+                                                <p class="text-sm font-weight-normal mb-0 text-truncate" style="max-width: 200px;">Jl. Gatot Subroto No. 45, Jakarta Barat</p>
                                             </td>
                                             <td>
-                                                <p class="text-sm font-weight-normal mb-0">12</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">15</p>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0">Rp 350.000</p>
-                                            </td>
-                                            <td>
-                                                <span class="text-sm font-weight-normal">20 Mar 2023</span>
-                                            </td>
-                                            <td>
-                                                <p class="text-sm font-weight-normal mb-0 text-truncate" style="max-width: 150px;">Aki kering MF 12V 5Ah untuk motor</p>
+                                                <select class="form-select form-select-sm" aria-label="Status Aktif">
+                                                    <option value="aktif">Aktif</option>
+                                                    <option value="tidak" selected>Tidak Aktif</option>
+                                                </select>
                                             </td>
                                             <td>
                                                 <div class="d-flex">
